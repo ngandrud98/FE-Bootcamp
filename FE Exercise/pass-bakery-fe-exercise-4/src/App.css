@@ -36,12 +36,12 @@ p{
 }
 
 .title{
-background-image: url(./images/bread.jpeg);
-background-position-x: right;
-background-position-y: center;
-background-repeat: no-repeat;
-background-size: contain;
-padding-right: 54%;
+  background-image: url(./images/bread.jpeg);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 54%;
 }
 
 .menu-options {
