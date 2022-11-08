@@ -1,6 +1,6 @@
 body{
-    font-family: 'Source Sans Pro', 'Helvetica', 'Arial';
-    padding: 16px;
+      font-family: 'Source Sans Pro', 'Helvetica', 'Arial';
+      padding: 16px;
 }
 
 h1{
@@ -18,10 +18,11 @@ h2{
 ul{
     list-style-type: disc;
 }
-li {
-  margin: 8px 8px 8px 16px;
 
+li{
+    margin: 8px 8px 8px 16px;
 }
+
 p{
     margin-bottom: 4px;
 }
