@@ -23,7 +23,10 @@ div{
     margin-top: 32px;
 }
 section{
+    /* Top and bottom margins are 32px, while left and right are auto*/
     margin: 32px auto;
+
+    /* Keeps the page centered */
     max-width: 808px;
 }
 
@@ -56,8 +59,9 @@ p{
     margin: 0 0 24px;
     width:48%;
   }
+  /* Gives a space between the buttons on the left and right*/
   .menu-options li:nth-child(odd) {
-    margin-right: 24px;
+    margin-right: 8px;
   }
 .add-to-cart{
     width: 100%;
