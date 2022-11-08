@@ -24,6 +24,7 @@ div{
 }
 section{
     margin: 32px auto;
+    max-width: 808px;
 }
 
 p{
@@ -53,10 +54,13 @@ p{
     box-sizing: border-box;
     display: inline-block;
     margin: 0 0 24px;
-    width:50%;
+    width:48%;
+  }
+  .menu-options li:nth-child(odd) {
+    margin-right: 24px;
   }
 .add-to-cart{
-    width: 50%;
+    width: 100%;
     border-radius: 8px;
     background-color: transparent;
     border: 2px solid #eee;
@@ -66,14 +70,15 @@ p{
 
 .add-to-cart:hover,
 .add-to-cart:focus {
-  background-color: #f0f0f0;
-  border-color: rgb(157, 148, 129);
+    background-color: #f0f0f0;
+    border-color: darkolivegreen;
 }
 
 .add-to-cart div {
-    margin-top: 16px;
+    margin-top: 8px;
   }
 
   .price{
+      color: #666;
       font-style: italic;
   }
