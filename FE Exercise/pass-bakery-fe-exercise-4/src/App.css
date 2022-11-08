@@ -1,0 +1,76 @@
+
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial;
+}
+
+h1 {
+  font-family: 'Qwitcher Grypen', serif;
+  font-size: 112px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.container {
+  border-bottom: 1px solid #ccc;
+}
+
+div {
+  margin-top: 32px;
+}
+
+section {
+  margin: 32px auto;
+  max-width: 808px;
+}
+
+.title-area {
+  background-image: url(./images/bread.jpeg);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 54%;
+}
+
+.menu-options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.menu-options li {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 0 24px;
+  width: 48%;
+}
+.menu-options li:nth-child(odd) {
+  margin-right: 24px;
+}
+.add-to-cart {
+  background-color: transparent;
+  border: 2px solid #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+  text-align: left;
+  width: 100%;
+}
+.add-to-cart:hover,
+.add-to-cart:focus {
+  background-color: #f0f0f0;
+  border-color: darkolivegreen;
+}
+.add-to-cart div {
+  margin-top: 8px;
+}
+.price {
+  color: #666;
+  font-style: italic;
+}
+

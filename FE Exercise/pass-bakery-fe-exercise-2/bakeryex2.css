@@ -1,0 +1,30 @@
+body{
+    font-family: 'Source Sans Pro', 'Helvetica', 'Arial';
+    padding: 16px;
+}
+
+h1{
+    font-family: "Qwitcher Grypen";
+    font-size: 104px;
+}
+
+h2{
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 4px;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: disc;
+}
+li {
+  margin: 8px 8px 8px 16px;
+
+}
+p{
+    margin-bottom: 4px;
+}
+
+
+
