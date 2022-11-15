@@ -1,12 +1,12 @@
 .add-to-cart {
+  width: 100%;
+  border-radius: 8px;
   background-color: transparent;
   border: 2px solid #eee;
-  border-radius: 4px;
-  cursor: pointer;
   padding: 8px;
-  text-align: left;
-  width: 100%;
+  cursor: pointer;
 }
+
 .add-to-cart:hover,
 .add-to-cart:focus {
   background-color: #f0f0f0;
