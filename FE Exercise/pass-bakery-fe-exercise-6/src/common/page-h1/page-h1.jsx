@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const PageH1 = styled.h1`
   font-family: 'Qwitcher Grypen', serif;
-  font-size: 112px;
+  font-size: 120px;
 `;
 
 export default PageH1;
