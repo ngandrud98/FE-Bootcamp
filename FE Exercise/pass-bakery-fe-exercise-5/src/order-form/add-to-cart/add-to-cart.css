@@ -1,0 +1,21 @@
+.add-to-cart {
+  width: 100%;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #eee;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover,
+.add-to-cart:focus {
+  background-color: #f0f0f0;
+  border-color: darkolivegreen;
+}
+.add-to-cart div {
+  margin-top: 8px;
+}
+.price {
+  color: #666;
+  font-style: italic;
+}

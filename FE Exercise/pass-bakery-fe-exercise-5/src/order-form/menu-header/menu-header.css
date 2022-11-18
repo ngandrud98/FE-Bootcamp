@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'Qwitcher Grypen', serif;
+  font-size: 104px;
+}
+h2 {
+  font-weight: bold;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  font-size: 24px;
+}
+
+.title-area {
+  background-image: url(../../images/bread.jpeg);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 54%;
+}
+
