@@ -1,6 +1,6 @@
 import React from 'react';
-import PageH3 from '../../common/page-h3/page-h3';
 import styled from 'styled-components';
+import PageH3 from '../../common/page-h3/page-h3';
 
 const AddToCart = styled.button`
   background-color: transparent;
@@ -24,7 +24,6 @@ const ItemPrice = styled.div`
 `;
 
 const MenuOffering = (props) => {
-
   const handleOnClick = (e) => {
     e.preventDefault();
     props.addToCartAction(props);
@@ -36,6 +35,6 @@ const MenuOffering = (props) => {
       <ItemPrice>{props.price}</ItemPrice>
     </AddToCart>
   );
-}
+};
 
 export default MenuOffering;

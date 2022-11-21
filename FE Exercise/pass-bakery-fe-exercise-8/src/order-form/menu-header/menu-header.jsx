@@ -1,11 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 import logo from '../../images/1p-site-logo.svg';
 import breadImage from '../../images/bread.jpeg';
 import PageH1 from '../../common/page-h1/page-h1';
 import PageSection from '../../common/page-section/page-section';
 import PageContainer from '../../common/page-container/page-container';
 import BakeryHours from './bakery-hours/bakery-hours';
-import styled from 'styled-components';
 
 const TitleArea = styled.div`
   background-image: url(${breadImage});

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import BakeryHours, { isBakeryOpen } from './bakery-hours';
-import { menuData } from '../../../data/menuData.js';
+import { menuData } from '../../../data/menuData';
 
 it('renders learn react link', () => {
   render(<BakeryHours hours={menuData.meta.hours} />);

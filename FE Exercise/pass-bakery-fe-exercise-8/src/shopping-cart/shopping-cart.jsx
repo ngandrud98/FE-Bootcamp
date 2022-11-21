@@ -42,7 +42,7 @@ const CartTotal = styled.div`
 const getCartTotal = (items) => {
   let total = 0;
 
-  items.forEach( (item) => {
+  items.forEach((item) => {
     total += parseFloat(item.price);
   });
 

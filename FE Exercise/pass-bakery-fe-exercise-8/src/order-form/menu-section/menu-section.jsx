@@ -1,8 +1,8 @@
 import React from 'react';
+import styled from 'styled-components';
 import AddToCart from '../add-to-cart/add-to-cart';
 import PageH2 from '../../common/page-h2/page-h2';
 import PageSection from '../../common/page-section/page-section';
-import styled from 'styled-components';
 
 const MenuOptions = styled.ul`
   display: flex;

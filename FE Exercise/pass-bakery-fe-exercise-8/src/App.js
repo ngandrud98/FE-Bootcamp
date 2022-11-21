@@ -6,6 +6,10 @@ import PageContainer from './common/page-container/page-container';
 import ShoppingCart from './shopping-cart/shopping-cart';
 
 function App() {
+  /*
+  Create new state variable called shoppingCartItems
+  Use it to store items in the shopping cart
+  */
   const [shoppingCartItems, setShoppingCartItems] = useState([]);
 
   const addToCartAction = (item) => {
@@ -13,6 +17,9 @@ function App() {
     setShoppingCartItems(newItemsList);
   };
 
+  /*
+  Create two seperate arrays and concat them together
+  */
   const removeFromCartAction = (key) => {
     const itemsBefore = shoppingCartItems.slice(0, key);
     const itemsAfter = shoppingCartItems.slice(key + 1, shoppingCartItems.length);
@@ -25,16 +32,13 @@ function App() {
       <MenuHeader address={menuData.address} hours={menuData.meta.hours} name={menuData.name} />
       <PageContainer>
         {
-          menuData.menu.map( (section, i) =>
-            <MenuSection
-                addToCartAction={addToCartAction}
-                items={section.offerings}
-                key={i}
-                name={section.name} />
-          )
+          menuData.menu.map((section, i) => <MenuSection
+              addToCartAction={addToCartAction}
+              items={section.offerings}
+              key={i}
+              name={section.name} />)
         }
       </PageContainer>
-
       <ShoppingCart
         items={shoppingCartItems}
         removeFromCartAction={removeFromCartAction}
