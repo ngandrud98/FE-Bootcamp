@@ -6,14 +6,18 @@ import ItemName from './item-name/item-name';
 import ItemPrice from './item-price/item-price';
 
 const ShoppingCartWrapper = styled.div`
-  background-color: #fff;
+  background-color: #ffffcc;
   border-left: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-right: 2px solid #ccc;
   margin-top: 0;
-  min-height: 100%;
   position: absolute;
   right: 0;
   top: 0;
   width: 320px;
+  position:fixed;
+  
 `;
 
 const ShoppingCartPadding = styled.div`

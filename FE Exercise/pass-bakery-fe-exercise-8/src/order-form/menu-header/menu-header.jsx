@@ -14,6 +14,7 @@ const TitleArea = styled.div`
   background-repeat: no-repeat;
   background-size: 48%;
   padding-right: 54%;
+  text-align:center;
 `;
 
 const MenuHeader = (props) => {
